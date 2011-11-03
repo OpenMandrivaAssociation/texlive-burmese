@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /language/burmese
+# catalog-date 2006-12-21 23:43:15 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-burmese
 Version:	20061221
 Release:	1
@@ -44,6 +50,7 @@ Type 1 font, and LaTeX macros.
 %doc %{_texmfdistdir}/doc/fonts/burmese/burmguide.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/burmese/birm.pl
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ Type 1 font, and LaTeX macros.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
