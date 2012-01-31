@@ -1,4 +1,4 @@
-# revision 15878
+# revision 25185
 # category Package
 # catalog-ctan /language/burmese
 # catalog-date 2006-12-21 23:43:15 +0100
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-burmese
 Version:	20061221
-Release:	2
+Release:	3
 Summary:	Basic Support for Writing Burmese
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/burmese
@@ -41,7 +41,7 @@ Type 1 font, and LaTeX macros.
 %{_texmfdistdir}/tex/latex/burmese/ubirm.fd
 %doc %{_texmfdistdir}/doc/fonts/burmese/burmguide.pdf
 #- source
-%doc %{_texmfdistdir}/source/latex/burmese/birm.pl
+%doc %{_texmfdistdir}/source/fonts/burmese/birm.pl
 
 #-----------------------------------------------------------------------
 %prep
