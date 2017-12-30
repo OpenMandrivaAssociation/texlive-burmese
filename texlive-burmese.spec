@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-burmese
-Version:	20061221
-Release:	11
+Version:	20170414
+Release:	1
 Summary:	Basic Support for Writing Burmese
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/burmese
