@@ -5,9 +5,9 @@ Summary:	Basic Support for Writing Burmese
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/burmese
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/burmese.r25185.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/burmese.doc.r25185.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/burmese.source.r25185.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/burmese.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/burmese.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/burmese.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
