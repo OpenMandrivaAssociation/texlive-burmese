@@ -3,7 +3,7 @@ Version:	25185
 Release:	2
 Summary:	Basic Support for Writing Burmese
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/burmese
+URL:		https://www.ctan.org/tex-archive/language/burmese
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/burmese.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/burmese.doc.r%{version}.tar.xz
